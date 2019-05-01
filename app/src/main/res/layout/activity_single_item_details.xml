@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/row_padding"
+    android:orientation="vertical"
+    tools:context=".SingleItemDetailsActivity">
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/name_format"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/item_mfr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/mfr_format"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/item_available"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/available_format"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/item_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/location_format"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/item_mfg_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/mfg_date_format"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/item_exp_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/exp_date_format"
+        android:textStyle="normal" />
+</LinearLayout>

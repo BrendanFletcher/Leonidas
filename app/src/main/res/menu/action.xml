@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_sold"
+        android:title="@string/sold" />
+
+    <item
+        android:id="@+id/menu_wish_list"
+        android:title="@string/add_wish_list" />
+
+    <item
+        android:id="@+id/menu_edit"
+        android:title="@string/edit" />
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/delete" />
+
+    <item
+        android:id="@+id/menu_remove_from_wishlist"
+        android:visible="false"
+        android:title="@string/remove_from_wishlist" />
+
+    <!--<item-->
+        <!--android:id="@+id/menu_remove_from_Soldout"-->
+        <!--android:visible="false"-->
+        <!--android:title="@string/remove_from_soldout" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/menu_remove_from_expiredlist"-->
+        <!--android:visible="false"-->
+        <!--android:title="@string/remove_from_expiredlist" />-->
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/search" />
+</menu>
